@@ -1,1 +1,183 @@
-Hello World
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>DreamPict dreampage</title>
+<link type="text/css" rel="stylesheet" href="css/bootstrap.css" />
+<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body>
+	<!-- fixed navigation bar
+	========================== -->
+	<div class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> 
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span> 
+			</button>
+			<a href="#" class="navbar-brand">DreamPict</a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="feature.html">Feature</a></li>
+					<li class="dropdown"><a href="#" clas="dropdown-toggle" data-toggle="dropdown">Gallery<b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Real Word</a></li>
+							<li><a href="#">Dreamed Pict</a></li>
+							<li><a href="#">Inspiration</a></li>
+						</ul>
+					</li>
+					<li><a href="contact.html">Contact Us!</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	<!--Carousel
+	==============================-->
+	<div id="myCarousel" class="carousel slide">
+		
+		<ol class="carousel-indicators">
+			<li data-target="##myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="##myCarousel" data-slide-to="1"></li>
+			<li data-target="##myCarousel" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner">
+			
+			<div class="item active">
+				<img src="img/slide1.jpg"/>
+				<div class="container">
+					<div class="carousel-caption">
+						<h1>My Heading 1 Text</h1>
+						<p>This tag will contain the text which we want to appear on our slide</p>
+						<p><a class="btn btn-large btn-primary">Sign Up</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<img src="img/slide2.jpg"/>
+				<div class="container">
+					<div class="carousel-caption">
+						<h1>My Heading 1 Text</h1>
+						<p>This tag will contain the text which we want to appear on our slide</p>
+						<p><a class="btn btn-large btn-primary">Sign Up</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<img src="img/slide3.jpg"/>
+				<div class="container">
+					<div class="carousel-caption">
+						<h1>My Heading 1 Text</h1>
+						<p>This tag will contain the text which we want to appear on our slide</p>
+						<p><a class="btn btn-large btn-primary">Sign Up</a></p>
+					</div>
+				</div>
+			</div>
+					
+		</div>
+		
+		<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left"></span>
+		</a>
+		
+		<a class="right carousel-control" href="#myCarousel" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right"></span>
+		</a>
+		
+	</div>
+	
+	<!--grid
+	==================-->
+	<div class="container">
+		<div class="row">
+			
+			<div class="col-md-4">
+				<h2>First Heading</h2>
+				<p>This is some texts.This is some texts.This is some texts.This is some texts.This is some texts.</p>
+			</div>
+			
+			<div class="col-md-4">
+				<h2>First Heading</h2>
+				<p>This is some texts.This is some texts.This is some texts.This is some texts.This is some texts.</p>
+			</div>
+			
+			<div class="col-md-4">
+				<h2>First Heading</h2>
+				<p>This is some texts.This is some texts.This is some texts.This is some texts.This is some texts.</p>
+			</div>
+			
+		</div>
+		
+		<div class="row">
+			<div class="col-md-6">
+				<h1>First Heading</h1>
+				<p>Some text here too!Some text here too!Some text here too!Some text here too!Some text here too!Some text here too!Some text here too!Some text here too!</p>
+			</div>
+			<div class="col-md-6">
+				<h1>First Heading</h1>
+				<p>Some text here too!Some text here too!Some text here too!Some text here too!Some text here too!Some text here too!Some text here too!Some text here too!</p>
+			</div>
+		</div>
+	</div>
+	<!--Font Awesome Icon
+	================-->
+	<div class"container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="well">
+					<a href="#"><i class="largeIcon fa fa-android"></i></a>
+					<a href="#"><i class="largeIcon fa fa-linkedin"> </i></a>
+					<a href="#"><i class="largeIcon fa fa-twitter"> </i></a>
+					<a href="#"><i class="largeIcon fa fa-youtube"> </i></a>
+					<a href="#"><i class="largeIcon fa fa-skype"> </i></a>
+					<a href="#"><i class="largeIcon fa fa-google-plus"> </i></a>
+					<a href="#"><i class="largeIcon fa fa-facebook"> </i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Footer and Modal
+	==================-->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<hr/>
+				<p>Copyright &copy; ivanosuke
+					<a data-toggle="modal" href="#myModal">Terms and Condition</a>
+				</p>
+				
+				<!--Modal-->
+				<div class="modal fade" id="myModal" tabinex="-1" role="dialog" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h2>Terms and Condition</h2>
+							</div>
+							<div class="modal-body">
+								<p>the text is here ...</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button> 
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	<script src="js/jquery.js" ></script>
+	<script src="js/bootstrap.js" ></script>
+</body>
+</html>
