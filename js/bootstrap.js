@@ -2002,5 +2002,7 @@ if (typeof jQuery === "undefined") { throw new Error("Bootstrap requires jQuery"
       $spy.affix(data)
     })
   })
+  
+  
 
 }(jQuery);

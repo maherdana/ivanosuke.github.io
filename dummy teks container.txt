@@ -1,0 +1,27 @@
+-------------------------
+some dummy text container
+-------------------------
+
+
+
+<div class="container">
+        <ul class="curtain">
+            <li>
+                <section id="section1">
+                    <h3>This is Sparta!!!!</h3>
+                    <p>is this sparta?yep this is sparta. but how is this possibble?don't know.just knowing that this is sparta.</p>
+                    <p>is this sparta?yep this is sparta. but how is this possibble?don't know.just knowing that this is sparta.</p>
+                    <p>is this sparta?yep this is sparta. but how is this possibble?don't know.just knowing that this is sparta.</p>
+                </section>
+            </li>
+            <li>
+                <section id="section2">
+                    <h3>But THIS is not Sparta!</h3>
+                    <p>You lied!this is not sparta!I'm pretty sure it's not sparta.i checked it. i even double checked it. triple checked!</p>
+                    <p>You lied!this is not sparta!I'm pretty sure it's not sparta.i checked it. i even double checked it. triple checked!</p>
+                    <p>You lied!this is not sparta!I'm pretty sure it's not sparta.i checked it. i even double checked it. triple checked!</p>
+                </section>
+            </li>
+        </ul>
+    </div>
+    
