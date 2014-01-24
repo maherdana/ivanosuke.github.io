@@ -67,18 +67,129 @@
     <div id="sidebar-wrapper">
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-			<li class="sidebar-brand">Menu Utama</a>
-			</li>
-			<li><a href="#top">Home</a>
-			</li>
-			<li><a href="#about">About</a>
-			</li>
-			<li><a href="#services">Services</a>
-			</li>
-			<li><a href="#portfolio">Portfolio</a>
-			</li>
-			<li><a href="#contact">Contact</a>
-			</li>
+                <!--this is accordion-->
+        	<div class="container">
+                    <div class="row">
+                        <div class="col-sm-3 col-md-3">
+                            <div class="panel-group" id="accordion">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#menuPertama">
+                                                Menu Pertama
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="menuPertama" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <table class="table">
+                                                <tr>
+                                                    <td>
+                                                        <a href="#">first item</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a href="#">second item</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a href="#">third item</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a href="#">Comments</a>
+                                                        <span class="badge">42</span>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>                                    
+                                </div>
+                                <!--second menu
+                                ============================-->
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#menuKedua">
+                                                Menu Kedua
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="menuKedua" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <table class="table">
+                                                <tr>
+                                                    <td>
+                                                        <a href="#">first item</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a href="#">second item</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a href="#">third item</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a href="#">Comments</a>
+                                                        <span class="badge">42</span>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>                                    
+                                </div>
+                                <!--third menu
+                                ============================-->
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#menuKetiga">
+                                                Menu Ketiga
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="menuKetiga" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <table class="table">
+                                                <tr>
+                                                    <td>
+                                                        <a href="#">first item</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a href="#">second item</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a href="#">third item</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a href="#">Comments</a>
+                                                        <span class="badge">42</span>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>                                    
+                                </div>
+                                <!--menu end-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
         </ul>
     </div>
    
@@ -179,6 +290,7 @@
 	    </div>
 	</div>
 	
+        
 	<!-- Side Menu -->
     <script>
     $("#menu-close").click(function(e) {
